@@ -1,0 +1,174 @@
+/* Resetter */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: calibri , san-serif;
+}
+
+/*Geberal Styles*/
+
+.container{
+    width: 1025px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4{
+    font-weight: 100;
+}
+
+p{line-height: 1.5em;}
+
+/* Page Styles */
+header{
+background-color: #232b2b;
+border-bottom: 20px solid #dc3d24;
+color: #fff;
+height: 100px;
+}
+header h1{
+    float: left;
+    line-height: 80px;
+}
+
+header nav{
+    float: right;
+}
+
+header ul li{
+    list-style-type: none;
+    height: 80px;
+    display: inline-block;
+    background-color: #dc3d24;
+    margin-left: 10px;
+    line-height: 80px;
+    padding: 0 25px;
+    width: 125px;
+    text-align: center;
+}
+header nav ul li:hover{
+    background-color: #be341f;
+    font-size: 1.15em;
+}
+header ul li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* body{
+    display: flex;
+    flex-direction: column;
+} 
+
+*/
+main{
+    margin-top: 30px;
+    overflow: auto;  /* but we did in top we used flex */
+    padding: 30px 0;
+}
+
+main aside{
+    /* width: 30%; */
+    width: 390px;
+    background-color:#232b2b;
+    float: right;
+    border-top: 20px solid  #dc3d24;
+    color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+}
+main aside h4{
+    margin-bottom: 10px;
+}
+
+main aside form{
+    background-color: #fcba6f;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    color: #666;
+}
+form fieldset{ 
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+}
+form fieldset legend{ 
+    font-weight: bold; 
+    color: #333;
+    padding-bottom: 10px;
+}
+
+main aside form label{
+    display: block;
+    background-color: #ffffff7a;
+    border:2px solid #fff;
+    padding: 5px 30px 5px 5px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+main aside form label input , label textarea{
+    border: none;
+    border-radius: 3px;
+    padding:3px;
+    float: right;
+    width: 150px !important;
+}
+main aside form label input.cardT{
+    float: none;
+    width: 13px !important;
+}
+main aside form [type="submit"]{
+    color: #fff;
+    background-color: #354b0d;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0px auto;
+}
+main aside form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: #789246;
+}
+
+main section{
+    /* width: 70%; */
+    width: 590px;
+    float: left;
+    color: #666;
+}
+
+/* main section *{
+    padding: 10px 0;
+} */
+main section h1{
+    margin-bottom: 10px;
+}
+main section h2{
+    border-top: 2px solid #dc3d24;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+
+main section article{
+    font-size: smaller;
+    border-left: 3px dotted #888;
+    color: #888;
+    padding-left: 10px;
+}
+main section article h2{border-top: none;}
+footer{
+    border-top: 20px solid #dc3d24;
+    background-color: #232b2b;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+    line-height: 80px;
+}
